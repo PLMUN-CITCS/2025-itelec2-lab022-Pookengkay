@@ -61,10 +61,10 @@ def main() -> None:
         try:
             choice = int(input("Enter your choice (1-3): "))
             if handle_menu_choice(choice):
-                nbreak
+                break
         except ValueError:
             print("Invalid input! Please enter a number between 1 and 3.")
 
 
-if __name__ == "__main__":
+if __name__== "__main__":
     main()
